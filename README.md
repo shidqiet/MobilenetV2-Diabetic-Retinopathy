@@ -1,2 +1,2 @@
-# MobilenetV2-Diabetic-Retinopathy
-Tugas Akhir Shidqie Taufiqurrahman
+# Diabetic Retinopathy Classification Using A Hybrid and Efficient MobileNetV2-SVM Model
+Shidqie Taufiqurrahman's Undergraduate Thesis
