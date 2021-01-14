@@ -1,2 +1,8 @@
 # Diabetic Retinopathy Classification Using A Hybrid and Efficient MobileNetV2-SVM Model
 Shidqie Taufiqurrahman's Undergraduate Thesis
+
+Abstract:
+
+Deep learning has been proposed as one of the automated solutions for diabetic retinopathy (DR) severity classification problem. However, most of the successful deep learning models are based on large convolutional neural network (CNN) architectures, requiring a vast volume of training data as well as dedicated computational resources. In this study, we used MobileNetV2 architecture, which was considered a small-scale architecture (4.2 million trainable parameters), to perform DR classification task in APTOS 2019 dataset (3662 color retinal images). We used the generic MobileNetV2 pre-trained weights from ImageNet as initialization and implemented data augmentation and resampling during training. We further optimized our model by combining it with an SVM classifier, resulting a hybrid and computationally efficient deep learning model, MobileNetV2-SVM. This model obtained quadratic weighted kappa score of 0.925, 85% accuracy, and area under receiving operating characteristic (AUROC) of 1.00, 0.82, 0.94, 0.94, 0.93 for normal, mild, moderate, severe, and proliferative DR classes, respectively; which is better or at least comparable with the larger architecture performance on the same dataset. Our result shows that with proper optimization strategy, a relatively small and generic CNN architecture, can achieve promising DR classification performance, and even outperform the performance of CNN model with larger architecture
+
+You can check my paper in: https://ieeexplore.ieee.org/document/9293739
